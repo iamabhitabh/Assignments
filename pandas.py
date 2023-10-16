@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[ ]:
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
 # In[4]:
 
 
@@ -18,7 +24,7 @@ a = pd.Series(a)
 # In[16]:
 
 
-#Solution3
+#Solution2
 b = [2,4,5,6,'er',34,78,89,'name','date']
 b = pd.Series(b)
 print(b)
@@ -53,34 +59,15 @@ common functions that can be used to manipulate data in a data frame are gorupby
 # In[2]:
 
 
-#Series and dataframe are mutable in nature.
+#Solution 6
+Series and dataframe are mutable in nature.
 
 
-# In[80]:
 
-
-#Soluttion6
+#Solution7
 a = pd.Series([1,3,5,7,9])
 b = pd.Series([2,4,6,8,10])
 c['even'] = pd.DataFrame(b)
 c['odd'] = pd.DataFrame(a)
-c
-
-
-# In[75]:
-
-
-
-
-
-# In[81]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
